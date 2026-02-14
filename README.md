@@ -1,6 +1,6 @@
 📊 Transaction Dataset Analysis
 
-✅ Project Purpose
+✅ Project Purpose 
 
 In this project, I analyzed a transaction dataset to understand:
 how much total sales happened
