@@ -2,19 +2,18 @@
 
 ✅ Project Purpose 
  
-In this project, I analyzed a transaction dataset to understand:
+- In this project, I analyzed a transaction dataset to understand:
+- how much total sales happened
 
-how much total sales happened
+- which products and services perform best
 
-which products and services perform best
+- which customers spend more
 
-which customers spend more
+- which locations generate more revenue
 
-which locations generate more revenue
+- how sales change over time
 
-how sales change over time
-
-how payment type affects spending
+- how payment type affects spending
 
 The goal is to convert raw transaction records into useful business insights.
 
@@ -28,7 +27,7 @@ dataset size
 
 Then I converted the date column into proper datetime format so I could analyze month and quarter trends.
 
-After that, I grouped and summarized the data using:
+- After that, I grouped and summarized the data using:
 sum → for total revenue,
 mean → for averages,
 count → for frequency,
@@ -36,64 +35,64 @@ groupby → for category comparison
 
 💰 Key Revenue Findings
 
-Total revenue was calculated for all transaction amounts
+- Total revenue was calculated for all transaction amounts
 
-The highest single transaction was identified using max()
+- The highest single transaction was identified using max()
 
-Average transaction value was computed to understand typical customer spending
+- Average transaction value was computed to understand typical customer spending
 
 This helps measure overall business performance.
 
 📅 Time Trend Findings
 
-I extracted month and quarter from transaction dates
+- I extracted month and quarter from transaction dates
 
-Monthly and quarterly sales totals were calculated
+- Monthly and quarterly sales totals were calculated
 
 Finding: Some months and Q3 showed higher sales — indicating seasonal demand patterns.
 
 👥 Customer Insights
 
-Counted total unique customers
+- Counted total unique customers
 
-Calculated average transactions per customer
+- Calculated average transactions per customer
 
-Found top spending customers
+- Found top spending customers
 
-Measured repeat buyer percentage
+- Measured repeat buyer percentage
 
 Finding: A large percentage of customers are repeat buyers
 
 
 🏷 Service & Product Insights
 
-Calculated total revenue per service category
+- Calculated total revenue per service category
 
-Identified most popular services by transaction count
+- Identified most popular services by transaction count
 
-Found highest revenue products
+- Found highest revenue products
 
-Compared average spending across services
+- Compared average spending across services
 
 Finding: Outdoor Recreation and Exercise & Fitness categories perform strongly.
 
 🌍 Location Insights
 
-Compared revenue by state
+- Compared revenue by state
 
-Found cities with most transactions
+- Found cities with most transactions
 
-Calculated average spend per state
+- Calculated average spend per state
 
 Finding: California and Texas generate the highest total sales.
 
 💳 Payment Insights
 
-Counted number of credit transactions
+- Counted number of credit transactions
 
-Calculated total revenue from credit payments
+- Calculated total revenue from credit payments
 
-Compared average spending by payment type
+- Compared average spending by payment type
 
 Finding: Credit users spend more on average than cash users.
 
@@ -101,15 +100,15 @@ Finding: Credit users spend more on average than cash users.
 
 Based on analysis:
 
-Stock more inventory in top service categories
+- Stock more inventory in top service categories
 
-Focus marketing in high-revenue states
+- Focus marketing in high-revenue states
 
-Offer promotions for low-performing services
+- Offer promotions for low-performing services
 
-Target repeat buyers with loyalty programs
+- Target repeat buyers with loyalty programs
 
-Use seasonal trends for campaign timing
+- Use seasonal trends for campaign timing
 
 🛠 Tools Used
 Python,
